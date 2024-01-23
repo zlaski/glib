@@ -27,3 +27,4 @@ tags
 # Meson
 /meson-build/
 /subprojects/*/
+/.vs
