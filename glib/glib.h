@@ -29,6 +29,8 @@
 
 #define __GLIB_H_INSIDE__
 
+#include <glibconfig.h>
+
 #include <glib/galloca.h>
 #include <glib/garray.h>
 #include <glib/gasyncqueue.h>
