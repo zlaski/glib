@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\glib">
+      <UniqueIdentifier>{9f678101-f711-4cdf-b38e-94049df2b774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\docs">
+      <UniqueIdentifier>{2dd9dcef-96a9-4b0f-a78c-a346ebdfcbf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\visual-studio">
+      <UniqueIdentifier>{863ad90f-22ca-4fc5-b68f-c6d36cba4463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\glib">
+      <UniqueIdentifier>{790ab5ee-0cd2-41f8-8fe8-2cf4800641b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\visual-studio\glib">
+      <UniqueIdentifier>{5fb873e9-ec08-45b9-a644-13749fd0e093}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\glib\galloca.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\garray.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gasyncqueue.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gasyncqueueprivate.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gatomic.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gbacktrace.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gbase64.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gbitlock.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gbookmarkfile.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gbsearcharray.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gbytes.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gcharset.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gcharsetprivate.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gchecksum.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gconstructor.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gconstructorprivate.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gconvert.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gconvertprivate.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gdataset.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gdatasetprivate.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gdate.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gdatetime.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gdatetime-private.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gdir.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\genviron.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gerror.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gfileutils.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\ggettext.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\ghash.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\ghmac.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\ghook.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\ghostutils.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gi18n.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gi18n-lib.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\giochannel.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gjournal-private.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gkeyfile.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\glib.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\glib_trace.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\glib-autocleanups.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\glib-init.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\glibintl.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\glib-object.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\glib-private.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\glib-typeof.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\glib-unix.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\glib-unixprivate.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\glist.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gmacros.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gmain.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gmain-internal.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gmappedfile.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gmarkup.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gmem.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gmessages.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gmirroringtable.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gnode.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\goption.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gpathbuf.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gpattern.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gpoll.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gprimes.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gprintf.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gprintfint.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gqsort.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gquark.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gqueue.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\grand.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\grcbox.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\grcboxprivate.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\grefcount.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\grefstring.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gregex.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gscanner.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gscripttable.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gsequence.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gshell.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gslice.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gslist.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gspawn.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gspawn-private.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gstdio.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gstdioprivate.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gstrfuncs.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gstring.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gstringchunk.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gstrvbuilder.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gtestutils.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gthread.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gthreadpool.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gthreadprivate.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gtimer.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gtimezone.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gtrace-private.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gtranslit-data.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gtrashstack.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gtree.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gtypes.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gunibreak.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gunichartables.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gunicode.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gunicodeprivate.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gunicomp.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gunidecomp.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\guri.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\guriprivate.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gutils.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gutilsprivate.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\guuid.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gvalgrind.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gvariant.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gvariant-core.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gvariant-internal.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gvariant-serialiser.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gvarianttype.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gvarianttypeinfo.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gversion.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gwakeup.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\gwin32.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\msvc_recommended_pragmas.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib\valgrind.h">
+      <Filter>Header Files\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glibconfig.h">
+      <Filter>Header Files\visual-studio</Filter>
+    </ClInclude>
+    <ClInclude Include="glib\gversionmacros.h">
+      <Filter>Header Files\visual-studio\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib\glib-visibility.h">
+      <Filter>Header Files\visual-studio\glib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\CODE_OF_CONDUCT.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\CONTRIBUTING.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\INSTALL.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\meson.build">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\NEWS">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\README.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\SECURITY.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\docs\backports.md">
+      <Filter>Resource Files\docs</Filter>
+    </None>
+    <None Include="..\docs\issue-and-merge-request-management.md">
+      <Filter>Resource Files\docs</Filter>
+    </None>
+    <None Include="..\docs\macros.md">
+      <Filter>Resource Files\docs</Filter>
+    </None>
+    <None Include="..\docs\meson-version.md">
+      <Filter>Resource Files\docs</Filter>
+    </None>
+    <None Include="..\docs\rationales.md">
+      <Filter>Resource Files\docs</Filter>
+    </None>
+    <None Include="..\docs\releasing.md">
+      <Filter>Resource Files\docs</Filter>
+    </None>
+    <None Include="..\docs\roadmap.md">
+      <Filter>Resource Files\docs</Filter>
+    </None>
+    <None Include="..\docs\supported-platforms.md">
+      <Filter>Resource Files\docs</Filter>
+    </None>
+    <None Include="..\docs\testing.md">
+      <Filter>Resource Files\docs</Filter>
+    </None>
+    <None Include="..\docs\toolchain-requirements.md">
+      <Filter>Resource Files\docs</Filter>
+    </None>
+    <None Include="..\docs\win32-build.md">
+      <Filter>Resource Files\docs</Filter>
+    </None>
+    <None Include="..\glib\glib.rc.in">
+      <Filter>Resource Files\glib</Filter>
+    </None>
+    <None Include="..\glib\glib.stp.in">
+      <Filter>Resource Files\glib</Filter>
+    </None>
+    <None Include="..\glib\gtester-report.in">
+      <Filter>Resource Files\glib</Filter>
+    </None>
+    <None Include="..\glib\libglib-gdb.py.in">
+      <Filter>Resource Files\glib</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\LICENSES\LGPL-2.1-or-later.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\meson_options.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
